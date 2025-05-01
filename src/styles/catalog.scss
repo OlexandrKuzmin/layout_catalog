@@ -1,13 +1,13 @@
 .main {
   box-sizing: border-box;
+  width: 100vw;
+  max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
 }
 
 .catalog {
-  max-width: 100%;
   display: grid;
   grid-template-columns: repeat(1, $card-width);
   padding: 50px 40px;
